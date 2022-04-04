@@ -13,7 +13,7 @@ function App() {
 	const {theme} = useContext(GlobalContext)
     console.log(theme);
   return (
-      <div style={{backgroundColor : theme.bgColor , color : theme.color}} className="App">
+      <div style={{backgroundColor : theme.bgColor , color : theme.color, height : '100%'}} className="App">
         <Header />
         <div className="container">
           <Balance />
